@@ -24,7 +24,7 @@ struct tripoint;
 /*
  * Talker wrapper class for Character.  well, ideally, but since Character is such a mess,
  * it's the wrapper class for player
- * Should never be invoked directly.  Only talker_avatar and talker_npc are really valid.
+ * Should never be invoked directly.  Only talker_avatar, talker_npc and talker_item are really valid.
  */
 class talker_character: public talker
 {

@@ -970,6 +970,7 @@ void Item_factory::init()
     add_iuse( "SPRAY_CAN", &iuse::spray_can );
     add_iuse( "STIMPACK", &iuse::stimpack );
     add_iuse( "STRONG_ANTIBIOTIC", &iuse::strong_antibiotic );
+    add_iuse( "TALK_TO", &iuse::talk_to );
     add_iuse( "TAZER", &iuse::tazer );
     add_iuse( "TAZER2", &iuse::tazer2 );
     add_iuse( "TELEPORT", &iuse::teleport );
@@ -2935,6 +2936,8 @@ void Item_factory::load_basic_info( const JsonObject &jo, itype &def, const std:
             def.drop_action = fun;
         }
     }
+
+    assign( jo, "talker_name", def.talker_name );
 
     jo.read( "looks_like", def.looks_like );
 
