@@ -68,6 +68,7 @@ ignore_files = {os.path.normpath(i) for i in {
     "data/json/items/book/abstract.json",
     "data/mods/replacements.json",
     "data/raw/color_templates/no_bright_background.json"
+    "data/json/npcs/TALK_TEST.json"
 }}
 
 # ignore these directories and their subdirectories
