@@ -110,6 +110,7 @@ atrophic
 attac
 attachable
 attery
+attunement
 attunements
 attuning
 atwixt
@@ -138,6 +139,7 @@ bagh
 baldric
 balefires
 balogna
+balrog
 bananope
 bandolier
 bandoliers
